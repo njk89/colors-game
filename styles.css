@@ -1,0 +1,26 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f8ff;
+}
+.game-container {
+  border: 2px solid #333;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+.svg-container svg {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.controls {
+  margin-top: 15px;
+}
